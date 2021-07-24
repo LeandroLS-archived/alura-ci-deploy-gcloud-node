@@ -15,4 +15,4 @@ jobs:
       - name: Executando testes unitários
         run: npm run test
       - name: Run ESLint
-        run: npm run lint:fix 
+        run: eslint . --ext .js,.jsx,.ts,.tsx
