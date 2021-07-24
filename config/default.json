@@ -3,7 +3,7 @@
         "banco-de-dados": "petshop",
         "usuario": "root",
         "senha": "123456",
-        "host": "127.0.0.1"
+        "host": "mysql-docker"
     },
     "api": {
         "porta": 3000
