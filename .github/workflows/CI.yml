@@ -9,7 +9,7 @@ jobs:
   tests:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2w
+      - uses: actions/checkout@v2
       - name: Instalando as dependencias
         run: npm install
       - name: Executando testes unitários
