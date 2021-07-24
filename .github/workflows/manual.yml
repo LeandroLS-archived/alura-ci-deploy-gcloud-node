@@ -1,0 +1,16 @@
+# This is a basic workflow that is manually triggered
+
+name: CI
+
+# Controls when the action will run. Workflow runs when manually triggered using the UI
+# or API.
+on: push
+jobs:
+  tests:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2w
+      - name: Instalando as dependencias
+        run: npm install
+      - name: Executando testes unitários
+        run: npm run test
