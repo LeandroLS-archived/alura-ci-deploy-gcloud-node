@@ -10,7 +10,8 @@ const formatosAceitos = require('./Serializador').formatosAceitos
 const SerializadorErro = require('./Serializador').SerializadorErro
 
 app.use(bodyParser.json())
-
+app.get('/teste', (req, res) =>
+  res.send('passei aqui 1'))
 app.use((requisicao, resposta, proximo) => {
   let formatoRequisitado = requisicao.header('Accept')
 

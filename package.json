@@ -6,7 +6,7 @@
   "scripts": {
     "lint": "npx eslint .",
     "lint:fix": "npx eslint . --fix",
-    "dev": "nodemon ./api/index.js",
+    "dev": "nodemon -L ./api/index.js",
     "test": "npx jest"
   },
   "keywords": [],
