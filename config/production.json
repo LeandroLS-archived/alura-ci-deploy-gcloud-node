@@ -6,6 +6,6 @@
         "host": "mysql-production"
     },
     "api": {
-        "porta": "3001"
+        "porta": "3002"
     }
 }
